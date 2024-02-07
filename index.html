@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafios</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <img src="./assets/logoHpl.png" alt="Logo HPL">
+        <ul>
+            <li>
+                <a href="https://portifolio-principal-three.vercel.app/" target="_blank">Portifólio</a>
+            </li>
+            <li>
+                <a href="https://helenapl145.github.io/helenaLimaLinks/" target="_blank">Contatos</a>
+            </li>
+            <li>
+                <a href="https://github.com/Helenapl145" target="_blank">GitHub</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Projetos</h1>
+
+        <div class="wraper">
+            <section>
+                <h4>Fibonacci</h4>
+                <p>
+                    Descubra a sequência de finobonacci de um número e se ele faz parte da sequência ou não.
+                </p>
+    
+                <form>
+                    <label for="numberFibo">Coloque um número:</label>
+                    <input type="number"  id="inputNumber" name="numberFibo" placeholder="coloque qualquer número">
+                    <button id="btnNumber">Enviar</button>
+                </form>
+    
+                <div>
+                    <p class="sequenceFibo"></p>
+                    <p class="verifyFibo"></p>
+                </div>
+                
+            </section>
+    
+            <section>
+                <h4>Faturamento</h4>
+                <p>
+                    Informações do faturamento de uma distribuidora.
+                </p>
+    
+                <div>
+                    <p class="totalValue"></p>
+                    <p class="minValue"></p>
+                    <p class="maxValue"></p>
+                    <p class="medValue"></p>
+                </div>
+                
+            </section>
+    
+            <section>
+                <h4>Estados</h4>
+                <p>
+                    Informações do faturamento de uma distribuidora.
+                    <br>
+                    <strong>Observação: Os valores estão arredondados</strong>
+                </p>
+    
+                <div class="divElements">
+               
+                </div>
+                
+            </section>
+    
+            <section>
+                <h4>Inverter String</h4>
+                <p>
+                    Coloque uma palavra para ver ela invertida.
+                </p>
+    
+                <form>
+                    <label for="stringReverse">Coloque um número:</label>
+                    <input type="text"  id="inputString" name="stringReverse" placeholder="coloque qualquer palavra">
+                    <button id="btnString">Enviar</button>
+                </form>
+    
+                <div>
+                    <p class="yourWord"></p>
+                    <p class="newWord"></p>
+                </div>
+                
+            </section>
+        </div>
+
+    </main>
+
+
+    <script src="./scripts.js" type="module" ></script>
+</body>
+</html>
